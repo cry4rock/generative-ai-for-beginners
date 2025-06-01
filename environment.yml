@@ -1,0 +1,11 @@
+name: hogwarts
+channels:
+ - defaults
+ - microsoft
+dependencies:
+- python=3.13
+- openai
+- python-dotenv
+- pip
+- pip:
+    - azure-ai-ml
